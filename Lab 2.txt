@@ -139,6 +139,7 @@ interface FastEthernet0/1/7
  spanning-tree portfast
 !
 interface FastEthernet0/1/8
+ switchport mode trunk
  no ip address
 !
 interface Vlan1
